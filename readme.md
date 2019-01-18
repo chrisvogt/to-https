@@ -1,4 +1,4 @@
-# to-https [![Build Status](https://travis-ci.com/chrisvogt/to-https.svg?branch=master)](https://travis-ci.com/chrisvogt/to-https) [![codecov](https://codecov.io/gh/chrisvogt/to-https/badge.svg?branch=master)](https://codecov.io/gh/chrisvogt/to-https?branch=master)
+# to-https [![Build Status](https://travis-ci.org/chrisvogt/to-https.svg?branch=master)](https://travis-ci.org/chrisvogt/to-https) [![codecov](https://codecov.io/gh/chrisvogt/to-https/badge.svg?branch=master)](https://codecov.io/gh/chrisvogt/to-https?branch=master)
 
 > Convert (almost) any url to https.
 
