@@ -1,0 +1,48 @@
+{
+	"name": "to-https",
+	"version": "1.0.0",
+	"description": "Convert (almost) any address to https.",
+	"license": "MIT",
+	"repository": "github:chrisvogt/to-https",
+	"author": {
+		"name": "Chris Vogt",
+		"email": "mail@chrisvogt.me",
+		"url": "https://www.chrisvogt.me"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && nyc ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+    "convert",
+		"url",
+		"http",
+		"https",
+		"path",
+		"protocol",
+		"secure",
+		"ssl",
+		"transform"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"ava": "^1.1.0",
+		"codecov": "^3.0.0",
+		"nyc": "^13.1.0",
+		"xo": "^0.24.0"
+	},
+	"nyc": {
+		"reporter": [
+			"lcov",
+			"text"
+		]
+	},
+	"xo": {
+		"space": true
+  }
+}
