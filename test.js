@@ -8,6 +8,10 @@ test('input validation', t => {
   t.is(err.message, 'Expected a string, got number');
 });
 
+test('https urls are returned as-is', t => {
+  t.is(toHttps('https://www.chrisvogt.me'), 'https://www.chrisvogt.me');
+});
+
 test('converting http urls to https', t => {
   t.is(toHttps('http://www.chrisvogt.me'), 'https://www.chrisvogt.me');
 });
