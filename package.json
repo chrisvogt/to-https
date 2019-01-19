@@ -1,6 +1,6 @@
 {
 	"name": "to-https",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Convert (almost) any url to https.",
 	"license": "MIT",
 	"repository": "github:chrisvogt/to-https",
