@@ -1,7 +1,7 @@
 {
 	"name": "to-https",
-	"version": "1.0.2",
-	"description": "Convert (almost) any url to https.",
+	"version": "1.1.0",
+	"description": "Transform HTTP URLs and IP addresses to HTTPS URLs.",
 	"license": "MIT",
 	"repository": "github:chrisvogt/to-https",
 	"author": {
@@ -19,8 +19,9 @@
 		"index.js"
 	],
 	"keywords": [
-    "convert",
+		"convert",
 		"url",
+		"ftp",
 		"http",
 		"https",
 		"path",
@@ -31,9 +32,9 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"ava": "^1.1.0",
+		"ava": "^2.0.0",
 		"codecov": "^3.0.0",
-		"nyc": "^13.1.0",
+		"nyc": "^14.1.1",
 		"xo": "^0.24.0"
 	},
 	"nyc": {
@@ -44,5 +45,5 @@
 	},
 	"xo": {
 		"space": true
-  }
+	}
 }

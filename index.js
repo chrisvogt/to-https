@@ -2,7 +2,7 @@
 
 const HTTPS = 'https://';
 const httpsRe = /(^https:\/\/)/;
-const protocolRe = /(^http:\/\/)|(^\/\/)/;
+const protocolRe = /(^http:\/\/)|(^\/\/)|(^ftp:\/\/)/;
 const convertToHttps = url => url.replace(protocolRe, HTTPS);
 
 module.exports = input => {
