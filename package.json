@@ -1,6 +1,6 @@
 {
 	"name": "to-https",
-	"version": "1.1.0",
+	"version": "2.0.0",
 	"description": "Transform HTTP URLs and IP addresses to HTTPS URLs.",
 	"license": "MIT",
 	"repository": "github:chrisvogt/to-https",
@@ -10,10 +10,13 @@
 		"url": "https://www.chrisvogt.me"
 	},
 	"engines": {
-		"node": ">=6"
+		"node": ">=18"
 	},
 	"scripts": {
-		"test": "xo && nyc ava"
+    "coverage:upload": "codecov",
+		"format": "biome format ./*.js --write",
+		"lint": "biome lint ./*.js",
+		"test": "vitest run --coverage"
 	},
 	"files": [
 		"index.js"
@@ -30,20 +33,10 @@
 		"ssl",
 		"transform"
 	],
-	"dependencies": {},
 	"devDependencies": {
-		"ava": "^2.0.0",
-		"codecov": "^3.0.0",
-		"nyc": "^14.1.1",
-		"xo": "^0.24.0"
-	},
-	"nyc": {
-		"reporter": [
-			"lcov",
-			"text"
-		]
-	},
-	"xo": {
-		"space": true
+		"@biomejs/biome": "^1.9.4",
+		"@vitest/coverage-v8": "^3.1.4",
+		"codecov": "^3.8.3",
+		"vitest": "^3.1.4"
 	}
 }
