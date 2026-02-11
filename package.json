@@ -13,7 +13,6 @@
 		"node": ">=18"
 	},
 	"scripts": {
-    "coverage:upload": "codecov",
 		"format": "biome format ./*.js --write",
 		"lint": "biome lint ./*.js",
 		"test": "vitest run --coverage"
@@ -36,7 +35,6 @@
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
 		"@vitest/coverage-v8": "^3.1.4",
-		"codecov": "^3.8.3",
 		"vitest": "^3.1.4"
 	}
 }
